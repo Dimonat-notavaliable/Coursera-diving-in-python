@@ -1,4 +1,5 @@
 from random import randint
+
 number = randint(0, 100)
 print("*****Отгадайте число от 1 до 100*****")
 while True:
@@ -22,3 +23,4 @@ while True:
     else:
         print("Верно!")
         break
+
